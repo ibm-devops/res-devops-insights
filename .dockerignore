@@ -1,9 +1,20 @@
+# source files that are not needed for runtime
+Dockerfile
+Jenkinsfile
+README.md
+.travis.yml
+
 # Local environment
 .DS_Store
 Thumbs.db
 
 # Vagrant
 .vagrant
+Vagrantfile
+
+# Git repository
+.git
+.gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

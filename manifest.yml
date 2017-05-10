@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: res-devops-insights
+  host: res-devops-insights
+  disk_quota: 1024M
+  buildpack: python_buildpack
+  services:
+  - RedisCloud

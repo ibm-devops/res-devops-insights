@@ -1,5 +1,7 @@
 # res-devops-insights
 
+[![Build Status](https://travis-ci.org/ibm-devops/res-devops-insights.svg?branch=master)](https://travis-ci.org/ibm-devops/res-devops-insights)
+
 This repo is for testing the capabilities of Bluemix DevOps Insights. The intent is to understand what metrics can be gathered and analysed about a GitHub repository.
 
 The sample code is using [Flask microframework](http://flask.pocoo.org/) and is intented to test the Python support on [IBM's Bluemix](https://bluemix.net/) environment which is based on Cloud Foundry. It also uses [Redis](https://redis.io) as a database for storing JSON objects.
